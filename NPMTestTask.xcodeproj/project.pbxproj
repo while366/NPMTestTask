@@ -12,6 +12,8 @@
 		524EDC851D41EEF600F20EA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524EDC831D41EEF600F20EA2 /* Main.storyboard */; };
 		524EDC871D41EEF600F20EA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524EDC861D41EEF600F20EA2 /* Assets.xcassets */; };
 		524EDC8A1D41EEF600F20EA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524EDC881D41EEF600F20EA2 /* LaunchScreen.storyboard */; };
+		524EDC921D41F6BC00F20EA2 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524EDC911D41F6BC00F20EA2 /* CollectionViewCell.swift */; };
+		524EDC961D422B7700F20EA2 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524EDC951D422B7700F20EA2 /* FlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		524EDC861D41EEF600F20EA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		524EDC891D41EEF600F20EA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		524EDC8B1D41EEF600F20EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524EDC911D41F6BC00F20EA2 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		524EDC951D422B7700F20EA2 /* FlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				524EDC7F1D41EEF600F20EA2 /* AppDelegate.swift */,
 				524EDC811D41EEF600F20EA2 /* ViewController.swift */,
+				524EDC911D41F6BC00F20EA2 /* CollectionViewCell.swift */,
+				524EDC951D422B7700F20EA2 /* FlowLayout.swift */,
 				524EDC831D41EEF600F20EA2 /* Main.storyboard */,
 				524EDC861D41EEF600F20EA2 /* Assets.xcassets */,
 				524EDC881D41EEF600F20EA2 /* LaunchScreen.storyboard */,
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					524EDC7B1D41EEF600F20EA2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Z4D95A6WYA;
 					};
 				};
 			};
@@ -136,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				524EDC821D41EEF600F20EA2 /* ViewController.swift in Sources */,
+				524EDC961D422B7700F20EA2 /* FlowLayout.swift in Sources */,
 				524EDC801D41EEF600F20EA2 /* AppDelegate.swift in Sources */,
+				524EDC921D41F6BC00F20EA2 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +260,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = NPMTestTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mikhailzhadko.NPMTestTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -262,7 +273,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = NPMTestTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mikhailzhadko.NPMTestTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
